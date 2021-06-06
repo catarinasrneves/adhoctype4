@@ -62,19 +62,31 @@ html, body {
 }
 
 #button{
-  position: fixed;
-  top: 12%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-  background-color:#1BFF00;
-  border:none;
-  font-size:18px;
+    position:absolute;
+   margin-left: 45%;
+    margin-right: 45%;
+    margin-top:2%;
+  width: 10%;
+  background-color:black;
+  font-size:1rem;
   font-family: 'Muli', sans-serif;
   text-transform:uppercase;
-  padding: 12px 38px;
-  border-radius: 16px;
+  padding: 1%;
+    border-radius: 30px;
+    color:#c67fe5;
+  border: 2px solid #c67fe5;
 	
+}
+
+
+#button:hover{
+    background-color:#c67fe5;
+    color:black;
+}
+
+#button:active{
+    background-color:#c67fe5;
+    color:black;
 }
 
 

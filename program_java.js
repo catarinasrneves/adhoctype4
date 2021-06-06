@@ -122,10 +122,10 @@ console.log(randFont());
 //button
 
 
-/*function refreshPage(){
+function refreshPage(){
     window.location.reload();
 	$('#button') = refreshPage();
-} */
+} 
 
 
 document.addEventListener('keyup', function(e){
